@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="293px" height="293px" viewBox="0 0 293 293" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>dropbox</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop--Case-Study" transform="translate(-1030.000000, -4046.000000)" fill-rule="nonzero">
+            <g id="Section/RnD" transform="translate(0.000000, 1226.000000)">
+                <g id="Section/CompAnalysis" transform="translate(277.000000, 2350.000000)">
+                    <g id="dropbox" transform="translate(758.000000, 475.000000)">
+                        <g id="Dropbox" transform="translate(69.753521, 79.000000)" fill="#0061FF">
+                            <path d="M71.8420135,23.6990596 L35.9210067,47.3981191 L71.8420135,71.0971787 L35.9210067,94.7962382 L0,70.8996865 L35.9210067,47.200627 L0,23.6990596 L35.9210067,0 L71.8420135,23.6990596 Z M35.7299375,102.30094 L71.6509443,78.6018809 L107.571951,102.30094 L71.6509443,126 L35.7299375,102.30094 Z M71.8420135,70.8996865 L107.76302,47.200627 L71.8420135,23.6990596 L107.571951,0 L143.492958,23.6990596 L107.571951,47.3981191 L143.492958,71.0971787 L107.571951,94.7962382 L71.8420135,70.8996865 Z" id="Shape"></path>
+                        </g>
+                        <circle id="Oval-Copy-3" stroke="#1F989E" stroke-width="9.375" cx="141.5" cy="141.5" r="141.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
