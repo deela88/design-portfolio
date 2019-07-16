@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -62,7 +63,8 @@
 
     <main>
       <section id="projects" class="section container">
-        <div class="proj-1">
+
+        <div class="proj-1" data-aos="fade-right">
           <div class="proj-1-child">
             <div class="proj-img"><img src= "images/project1.png" alt="featured"></div>
             <div class="proj-1-text">
@@ -74,7 +76,7 @@
             </div>
           </div>
         </div>
-        <div class= "proj-2">
+        <div class= "proj-2" data-aos="fade-left">
           <div class="proj-img"><img src= "images/zenbook/proj2.png" alt="Project 2"></div>
           <div class="proj-2-text">
             <h2> ZENBOOK</h2>
@@ -83,7 +85,16 @@
               <a href="project2.html" class="button-outline"> SEE CASE STUDY</a>
             </div>
           </div>
-
+        </div>
+        <div class= "proj-3" data-aos="fade-right">
+          <div class="proj-img"><img src= "images/WTW-Final.png" alt="Graphic Design Work"></div>
+          <div class="proj-3-text">
+            <h2> Graphic Design</h2>
+            <p>Work from 2011-Present</p>
+            <div class="button-margin">
+              <a href="https://www.behance.net/lamchomps" target="blank" class="button-outline"> VIEW ON BEHANCE</a>
+            </div>
+          </div>
         </div>
     </section>
     </main>
@@ -114,12 +125,20 @@
           </ul>
         </nav>
       </div>
+
+      <div class="container copyright">
+        <p> &#169; 2019 Designed and Developed by Deanna Lam. All rights reserved.</p>
+      </div>
     </footer>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"></script>
 <script src="scripts/main.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129496697-1"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>AOS.init();</script>
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}

@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Source+Sans+Pro" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -165,94 +166,100 @@
             <div class="line-element"></div>
             <p>From this data, we created two user personas to bring focus to our target audiences. They allowed us to pinpoint specific frustrations and problems as well as tasks and goals for Loom to accomplish. They humanised our designs and kept our users at the forefront of each solution we built. Derrick represented our power user, who would utilize our Whiteboard and Note features to collaborate in real-time with his remote team. Judy was a student who would use Loom’s data organization features to keep her lecture notes and photos organized easily.</p>
           </div>
-
-          <div class= "persona-wrapper">
-
-          <div class="persona persona-1">
-
-            <div class="info-wrapper">
-              <div class="persona-img-container"><img src="images/derrick.png" alt="Derrick"></div>
-              <div class="pers-info">
+        <div class="persona-container" data-aos="fade-right">
+          <div class="persona-wrapper">
+            <div class="profile">
+              <div class="profile-image">
+                <img src="images/derrick.png" alt="Derrick">
+              </div>
+              <div class="profile-info">
                 <h4>Derrick</h4>
                 <ul>
-                  <li><span class="emphasis">Innovative, Stubborn, Ambitious</span></li>
-                  <li>Age:28</li>
-                  <li>Occupation: Product Designer</li>
+                  <li><span class="emphasis">Ambitious and Stubborn</span></li>
+                  <li><span class="emphasis">Occupation:</span> Product Designer</li>
+                  <li><span class="emphasis"> Age:</span> 28</li>
                 </ul>
               </div>
             </div>
-            <div class="goals">
-              <h5>Goals:</h5>
+            <div class="persona-info">
+              <div class="goals">
+                <h5>Goals</h5>
                 <ol>
                   <li>Share files with remote coworkers with ease</li>
-                  <li>Use collab tools like screen sharing and whiteboards</li>
-                  <li>Upload files and integrate with third-party apps easily</li>
+                  <li>Use collab tools like screen sharing</li>
+                  <li>Upload files and integrate with apps</li>
                 </ol>
+              </div>
+              <div class="frustrations">
+                <h5>Frustrations:</h5>
+                  <ol>
+                    <li>Switching between apps is inefficient</li>
+                    <li>File sharing apps can be slow and laggy</li>
+                    <li>Collaborative tools don't feel intuitive</li>
+                  </ol>
+              </div>
             </div>
-            <div class="frustrations">
-              <h5>Frustrations:</h5>
-                <ol>
-                  <li>Frustrating to switch back and forth between apps</li>
-                  <li>File sharing apps can be slow and laggy to work with</li>
-                  <li>Collaborative tools don’t work as well for remote teams</li>
-                </ol>
-            </div>
-            <div class="motivations">
-              <h5>Motivations:</h5>
+            <button class="collapsible">See Motivations</button>
+            <div class="motivations content">
               <p>I use Dropbox everyday to share files and collaborate with my remote coworkers on
-my design team. I use apps like Slack and Screenhero to collab with them, but it’s
-annoying to have to switch back and forth between apps, and there’s no guarantee
-I can upload directly from Dropbox into these apps to work on them. And the
-collaborative tools lack the same spontaneity and creativity we would have if we
-were colocated. Even though we’re from all over, I want to work on projects in real
-time, as if we’re all in the same room together. That’s hard with lag and
-incompatible app integration.</p>
-          </div>
+  my design team. I use apps like Slack and Screenhero to collab with them, but it’s
+  annoying to have to switch back and forth between apps, and there’s no guarantee
+  I can upload directly from Dropbox into these apps to work on them. And the
+  collaborative tools lack the same spontaneity and creativity we would have if we
+  were colocated. Even though we’re from all over, I want to work on projects in real
+  time, as if we’re all in the same room together. That’s hard with lag and
+  incompatible app integration.</p>
+            </div>
           </div>
 
-
-          <div class="persona persona-2">
-            <div class="info-wrapper">
-              <div class="persona-img-container"><img src="images/judy.png" alt="Judy"></div>
-              <div class="pers-info judy-info">
-              <h4>Judy</h4>
+          <div class="persona-wrapper">
+            <div class="profile">
+              <div class="profile-image">
+                <img src="images/judy.png" alt="Judy">
+              </div>
+              <div class="profile-info">
+                <h4>Judy</h4>
                 <ul>
-                  <li><span class="emphasis">Curious, Adventurous, Messy </span></li>
-                  <li>Age:20</li>
-                  <li>Occupation: Student, barista</li>
+                  <li><span class="emphasis">Curious and Adventurous </span></li>
+                  <li><span class="emphasis">Occupation:</span> Student, barista</li>
+                  <li><span class="emphasis">Age:</span>20</li>
                 </ul>
               </div>
-          </div>
-            <div class="goals">
-              <h5>Goals:</h5>
-              <ol>
-                <li>Share photos and videos with family in shared folders</li>
-                <li>Share web links in the same place as shared files</li>
-                <li>Easy, intuitive organization of files and links</li>
-              </ol>
             </div>
-            <div class="frustrations">
+            <div class="persona-info">
+              <div class="goals">
 
+                <h5>Goals:</h5>
+                <ol>
+                  <li>Share photos and videos with family</li>
+                  <li>Share web links in the same place as files</li>
+                  <li>Easy, intuitive organization of files and links</li>
+                </ol>
+              </div>
+              <div class="frustrations">
               <h5>Frustrations:</h5>
               <ol>
                 <li>Confusing image organization in current app</li>
-                <li>File sharing apps can be slow and laggy to work with</li>
-                <li>Can't save web links and shared files in the same place</li>
+                <li>File sharing apps can be slow and laggy</li>
+                <li>Can't save web links and shared files together</li>
               </ol>
+            </div>
+            </div>
+              <button class="collapsible">See Motivations</button>
+              <div class="motivations content">
+                <p>I probably take about 30-40 photos everyday, and I upload everything to iCloud. I
+    love sharing photos with my family back index in California, and our family photo
+    stream is my connection to them and my adventures here in college. I wish it was
+    easier to share the videos of songs I wrote them alongside the photos. iCloud is kind
+    of a jumble after a while. I use Google Drive to work on all my assignments and share
+    notes with my classmates. I like being able to comment on their slides and keep
+    everything organized in one spot, but I wish there was a way to save all our research
+    links in the same place, too.</p>
+            </div>
           </div>
 
-          <div class="motivations">
-            <h5>Motivations:</h5>
-            <p>I probably take about 30-40 photos everyday, and I upload everything to iCloud. I
-love sharing photos with my family back index in California, and our family photo
-stream is my connection to them and my adventures here in college. I wish it was
-easier to share the videos of songs I wrote them alongside the photos. iCloud is kind
-of a jumble after a while. I use Google Drive to work on all my assignments and share
-notes with my classmates. I like being able to comment on their slides and keep
-everything organized in one spot, but I wish there was a way to save all our research
-links in the same place, too.</p>
-        </div>
       </div>
+    </div>
         </section>
 
         <section class="section competitive-analysis container">
@@ -264,7 +271,7 @@ links in the same place, too.</p>
               <a class="button-solid" href="https://docs.google.com/document/d/1dzKm9lDapRoA8s1ecmcwwdA8EO4gH8JYVeusGSQE0yk/edit?usp=sharing" target="_blank"> SEE FULL COMPETITIVE ANALYSIS</a>
             </div>
           </div>
-          <div class="comp-img-container">
+          <div class="comp-img-container" data-aos="fade-down-right">
               <div class="comp-img">
                 <img src="images/googledrive.svg" alt="Google Drive">
                 <h5>Google Drive</h5>
@@ -288,7 +295,7 @@ links in the same place, too.</p>
             </div>
           </div>
           <div class="u-stories-wrapper">
-            <div class="userstory userstory1">
+            <div class="userstory userstory1" data-aos="fade-down">
               <p class="caption">HIGH PRIORITY TASKS</p>
               <h5>As a user, I want to...</h5>
               <ul>
@@ -299,7 +306,7 @@ links in the same place, too.</p>
                 <li>Create a new account</li>
               </ul>
             </div>
-            <div class="userstory userstory2">
+            <div class="userstory userstory2" data-aos="fade-down">
               <p class="caption">LOWER PRIORITY TASKS</p>
               <h5>As a user, I want to...</h5>
               <ul>
@@ -334,25 +341,25 @@ links in the same place, too.</p>
             <p>Our main focus was file organization and perfecting the uploading and sharing flow. We determined that users also needed to be able to create and share Notes. In the Whiteboard flows, it was imperative that users could communicate with their teammates and have access to whiteboarding tools no matter where they were on the infinite workspace. After defining these user tasks by priority, we used that hieararchy to structure our screens together to create a seamless, cohesive user experience in the user flows. We constantly referred back to these two documents to keep our focus and narrow our scope.  </p>
           </div>
 
-          <div class="wireframe-wrapper">
+          <div class="wireframe-wrapper" >
             <div class="wire-cont wire-cont-1">
-              <img src="images/wire-1.png" alt="Wireframe Sketch 1">
+              <img src="images/wire-1.png" alt="Wireframe Sketch 1" data-aos="fade-left">
               <p class="caption">WIREFRAME SKETCH 1</p>
             </div>
 
             <div class="wire-cont wire-cont-2">
-              <img src="images/wire-2.png" alt="Wireframe Sketch 2">
+              <img src="images/wire-2.png" alt="Wireframe Sketch 2" data-aos="fade-left">
               <p class="caption">WIREFRAME SKETCH 2</p>
             </div>
 
           </div>
-          <div class="wireframe-wrapper">
+          <div class="wireframe-wrapper" >
             <div class="wire-cont">
-              <img src="images/dsk-mock-1.png" alt="Lofi Wireframe 1">
+              <img src="images/dsk-mock-1.png" alt="Lofi Wireframe 1" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
               <p class="caption">DASHBOARD LO-FI WIREFRAME 1</p>
             </div>
             <div class="wire-cont">
-              <img src="images/dsk-mock-2.png" alt="Lofi Wireframe 2">
+              <img src="images/dsk-mock-2.png" alt="Lofi Wireframe 2" data-aos="fade-right">
               <p class="caption">DASHBOARD LO-FI WIREFRAME 2</p>
             </div>
           </div>
@@ -403,23 +410,23 @@ links in the same place, too.</p>
           <div class="br-set">
             <h4>EARLY SKETCHING STAGE</h4>
             <div class="br-imgset br-imgset-1">
-              <div class="br-img">
+              <div class="br-img" data-aos="fade-left">
                 <img src="images/br-sketch1.png" alt="Branding Sketch 1">
               </div>
-              <div class= "br-img">
+              <div class= "br-img" data-aos="fade-left">
                 <img src="images/br-sketch2.png" alt="Branding Sketch 2">
               </div>
-              <div class="br-img">
+              <div class="br-img" data-aos="fade-left">
                 <img src="images/br-sketch-3.png" alt="Branding Sketch 3">
               </div>
             </div>
             <h4>LOOM STYLE GUIDE</h4>
             <div class="br-imgset br-imgset-2">
-              <div class= "br-img">
+              <div class= "br-img" data-aos="fade-left">
                 <img src="images/style-1.png" alt="Loom Style Guide 1"></div>
-              <div class= "br-img">
+              <div class= "br-img" data-aos="fade-left">
                 <img src="images/style-2.png" alt="Loom Style Guide 2"></div>
-              <div class= "br-img">
+              <div class= "br-img" data-aos="fade-left">
                 <img src="images/style-3.png" alt="Loom Style Guide 3"></div>
             </div>
           <div class="style-link">
@@ -433,9 +440,9 @@ links in the same place, too.</p>
             <p>Once the basic structure of the app was finalized, it was time to rig a mockup to be able to test our hypotheses on real people. In the mockup stage, we developed our wireframes digitally with Balsamiq and used InVision to create clickable prototypes. It was here that we began to face some real challenges. As our mockups came to life, we had to revisit some of our user flows and reorganize steps and tasks to streamline our design. Where something might have made sense in the wireframe alone, once it had to be interacted with, the flow didn’t make sense or it was missing transitional pages in between. </p>
           </div>
 
-          <div class="mockset grid-container">
+          <div class="mockset grid-container" >
 
-            <div class="grid-1 grid">
+            <div class="grid-1 grid" >
               <div class="grid-item">
                 <div class="grid-a">
                   <img src="images/lofi-upload.png" alt="upload-1">
@@ -581,12 +588,18 @@ links in the same place, too.</p>
           </ul>
         </nav>
       </div>
+      <div class="container copyright">
+        <p> &#169; 2019 Designed and Developed by Deanna Lam. All rights reserved.</p>
+      </div>
     </footer>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129496697-1"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"></script>
     <script src="scripts/main.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 
     <script>
       window.dataLayer = window.dataLayer || [];
