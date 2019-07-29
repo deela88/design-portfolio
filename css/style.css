@@ -416,7 +416,13 @@ p.roles {
   color: #1F989E;
 }
 .bio p {
-  margin-top: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.bio h5 {
+  margin-top: 2rem;
+  color: #1F989E;
 }
 /*Projects Styling*/
 
